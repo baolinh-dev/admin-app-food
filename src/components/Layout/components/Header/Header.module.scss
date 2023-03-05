@@ -1,0 +1,40 @@
+.header { 
+    height: 68px; 
+    box-shadow: 0 10px 8px #999; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 40px;
+} 
+.search { 
+    border: 1px solid #000;  
+    padding: 8px;    
+    border-radius: 20px;
+} 
+.search-input { 
+    font-size: 16px; 
+    padding: 0 20px;
+    outline: none; 
+    border: none; 
+} 
+.account { 
+    display: flex;
+} 
+
+.account-img { 
+    width: 50px; 
+    margin-right: 12px;
+} 
+
+.account-infor { 
+    display: flex;  
+    flex-direction: column;
+}  
+.account-infor .account-name { 
+    color: #000; 
+    font-weight: bold;
+}
+.account-infor .account-possition { 
+    font-style: italic; 
+    color: #888;
+}

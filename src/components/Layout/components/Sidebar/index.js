@@ -1,7 +1,8 @@
-import { NavLink } from 'react-router-dom';
+import images from '~/assets/images'; 
+import { NavLink } from 'react-router-dom'; 
+
 import styles from './Navigation.module.scss';
 import classNames from 'classnames/bind';  
-import images from '~/assets/images';
 var cx = classNames.bind(styles);
 
 function Navigation() {
