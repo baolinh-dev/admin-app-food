@@ -1,11 +1,15 @@
-import Home from "../pages/Home";
-import News from "../pages/News";
-import Contact from "../pages/Contact";
+import Dashboard from "~/pages/Dashboard";
+import Accounts from "~/pages/Accounts";
+import Orders from "~/pages/Orders";  
+import Warehouse from "~/pages/Warehouse"; 
+
+import DefaultLayout from "~/components/Layout/DefaultLayout";
 
 const publicRoutes = [
-  { path: "/", component: Home },
-  { path: "/contact", component: Contact },
-  { path: "/news", component: News },
+  { path: "/", component: Dashboard },
+  { path: "/accounts", component: Accounts},
+  { path: "/warehouse", component: Warehouse},
+  { path: "/orders", component: Orders},
 ];
 
 const privateRoutes = [];

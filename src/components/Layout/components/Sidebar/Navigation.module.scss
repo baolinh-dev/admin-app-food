@@ -1,0 +1,53 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100vh;
+    background-color: var(--primary);
+}
+.logo { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+    height: 68px;
+    line-height: 68px;
+} 
+.logo-img { 
+    width: 68px; 
+    height: 68px;
+} 
+.logo-text { 
+    color: #fff; 
+    font-family: 'Dancing Script', cursive; 
+    font-size: 24px;
+}
+
+.navi {
+}
+
+.list {
+    padding: 20px 0 20px 40px;
+}
+
+.item {
+    background-color: transparent;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px; 
+    margin-bottom: 20px;    
+}   
+.item:hover { 
+    background-color: var(--fourth);
+}
+
+
+.anchor {   
+    padding: 16px 0 16px 16px;
+    width: 100%;
+    display: inline-block;
+    color: #000; 
+    font-weight: 600;
+}  
+
+
+

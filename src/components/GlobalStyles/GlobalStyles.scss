@@ -1,0 +1,52 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+:root {
+    --primary: #36622B; 
+    --second: #729D39; 
+    --third: #C6E377; 
+    --fourth: #FBFAD3;
+}  
+
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+} 
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizespeed;
+}  
+
+// Remove Default css HTML
+a { 
+    text-decoration: none; 
+    color: #000;
+}  
+
+li { 
+    list-style: none; 
+} 
+
+button { 
+    outline: none; 
+    border: none;
+}
+
+.active {  
+    background-color: var(--fourth); 
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;  
+    &:hover { 
+        padding: none;
+    }
+}
