@@ -1,13 +1,18 @@
 import styles from './Header.module.scss';
 import classNames from 'classnames/bind';
-var cx = classNames.bind(styles);
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleXmark } from '@fortawesome/free-regular-svg-icons';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+
+var cx = classNames.bind(styles);
 function Header() {
     return (
         <div className={cx('header')}>
             <h3>Name</h3>
             <div className={cx('search')}> 
-                <input placeholder='Search ...' type="text" className={cx('search-input')} />
+                <FontAwesomeIcon icon={faMagnifyingGlass} />
+                <input placeholder="Search ..." type="text" className={cx('search-input')} />
             </div>
             <div className={cx('account')}>
                 <img
